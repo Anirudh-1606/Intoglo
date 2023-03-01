@@ -369,6 +369,6 @@ app.get("/get-product", (req, res) => {
 	}
 });
 
-app.listen(2000, () => {
-	console.log("Server is Runing On port 2000");
+app.listen(8082, () => {
+	console.log("Server is Runing On port 8082");
 });
