@@ -1,7 +1,3 @@
-const WebSocket = require('ws');
-var socket = new WebSocket('ws://localhost:2000');
-const io = new WebSocket.Server({ noServer: true });
-global.io = new WebSocket.Server({ noServer: true });
 var express = require("express");
 var app = express();
 const bcrypt = require("bcrypt");
